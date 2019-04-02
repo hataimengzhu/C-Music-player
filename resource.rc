@@ -1,0 +1,253 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAIN DIALOGEX 0, 0, 247, 228
+STYLE DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "播放器2.1版"
+MENU IDR_MENU1
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDC_OK,97,210,18,11,BS_FLAT
+    PUSHBUTTON      "OK",IDC_PLAY,33,41,14,8,BS_FLAT
+    LISTBOX         IDC_LIST1,4,68,168,140,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    NOT WS_BORDER | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "■",IDC_STOP,9,41,10,9,BS_FLAT
+    PUSHBUTTON      "浏览",IDC_ADD,4,209,19,14,BS_FLAT
+    PUSHBUTTON      "<<",IDC_UPMUSIC,20,41,12,8,BS_FLAT
+    PUSHBUTTON      ">>",IDC_DOWNMUSIC,50,41,11,8,BS_FLAT
+    EDITTEXT        IDC_TIME,120,210,50,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER,WS_EX_TRANSPARENT
+    PUSHBUTTON      "删除",IDC_DELETE,26,209,17,13,BS_FLAT
+    COMBOBOX        IDC_CURPLAYS,136,39,35,40,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP,WS_EX_TRANSPARENT
+    CONTROL         "Slider1",IDC_VOLUME,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,59,41,27,9,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_PLAYINFOR,13,12,107,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_CUR,139,13,33,12,ES_AUTOHSCROLL | ES_NOHIDESEL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_SHOWV,93,40,11,12,ES_AUTOHSCROLL | ES_READONLY | NOT 
+                    WS_BORDER,WS_EX_TRANSPARENT
+    GROUPBOX        "音悦台",IDC_STATIC,182,7,57,73,BS_ICON | BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "搜索",IDC_SEARCH1,202,32,17,14,BS_FLAT
+    COMBOBOX        IDC_COMHTTP,186,16,53,112,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP,WS_EX_TRANSPARENT
+    PUSHBUTTON      "百度",IDC_BAIDU,184,47,17,14,BS_FLAT
+    PUSHBUTTON      "搜狗",IDC_SOUGOU,202,47,17,14,BS_FLAT
+    PUSHBUTTON      "雅虎",IDC_YAHU,220,47,17,14,BS_FLAT
+    PUSHBUTTON      "优酷",IDC_YOUKU,185,32,16,14,BS_FLAT
+    PUSHBUTTON      "淘宝",IDC_TAOBAO,221,32,16,14,BS_FLAT
+    CONTROL         "Slider1",IDC_SLIDER1,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,4,22,159,15
+    DEFPUSHBUTTON   "内蒙古工业大学",IDC_NGD,183,63,56,14,BS_CENTER | 
+                    BS_FLAT
+    CONTROL         113,IDC_STATIC,"Static",SS_BITMAP | SS_CENTERIMAGE | 
+                    SS_REALSIZEIMAGE,180,126,62,78
+    DEFPUSHBUTTON   "<|",IDM_NORMAL1,82,209,12,12,BS_VCENTER | BS_FLAT
+    CONTROL         "静音",IDC_CHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    108,40,25,10
+    GROUPBOX        "依稀",IDC_STATIC,4,4,168,61
+    PUSHBUTTON      "清空列表",IDC_DELDETALL,44,210,36,11,BS_FLAT
+    CONTROL         "",IDC_STATIC1,"Static",SS_BLACKFRAME,178,202,64,19,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDT5,184,93,57,12,ES_AUTOHSCROLL,WS_EX_TRANSPARENT
+    PUSHBUTTON      "搜索",IDC_SEARCH2,184,109,17,11,BS_FLAT
+    GROUPBOX        "百度搜歌",IDC_STATIC,181,83,61,41
+END
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 70, 150
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "对话"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,13,7,50,14
+    PUSHBUTTON      "取消",IDCANCEL,13,24,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 242
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 221
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 63
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 143
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+1 24 DISCARDABLE 
+BEGIN
+    0x3f3c, 0x6d78, 0x206c, 0x6576, 0x7372, 0x6f69, 0x3d6e, 0x3122, 0x302e, 
+    0x2022, 0x6e65, 0x6f63, 0x6964, 0x676e, 0x223d, 0x5455, 0x2d46, 0x2238, 
+    0x7320, 0x6174, 0x646e, 0x6c61, 0x6e6f, 0x3d65, 0x7922, 0x7365, 0x3f22, 
+    0x203e, 0x0a0d, 0x613c, 0x7373, 0x6d65, 0x6c62, 0x2079, 0x0a0d, 0x6d78, 
+    0x6e6c, 0x3d73, 0x7522, 0x6e72, 0x733a, 0x6863, 0x6d65, 0x7361, 0x6d2d, 
+    0x6369, 0x6f72, 0x6f73, 0x7466, 0x632d, 0x6d6f, 0x613a, 0x6d73, 0x762e, 
+    0x2231, 0x0d20, 0x6d0a, 0x6e61, 0x6669, 0x7365, 0x5674, 0x7265, 0x6973, 
+    0x6e6f, 0x223d, 0x2e31, 0x2230, 0x0d3e, 0x3c0a, 0x7361, 0x6573, 0x626d, 
+    0x796c, 0x6449, 0x6e65, 0x6974, 0x7974, 0x0d20, 0x700a, 0x6f72, 0x6563, 
+    0x7373, 0x726f, 0x7241, 0x6863, 0x7469, 0x6365, 0x7574, 0x6572, 0x223d, 
+    0x3878, 0x2236, 0x0d20, 0x760a, 0x7265, 0x6973, 0x6e6f, 0x223d, 0x2e35, 
+    0x2e31, 0x2e30, 0x2230, 0x0a0d, 0x7974, 0x6570, 0x223d, 0x6977, 0x336e, 
+    0x2232, 0x0a0d, 0x616e, 0x656d, 0x223d, 0x6574, 0x7473, 0x652e, 0x6578, 
+    0x2f22, 0x0d3e, 0x3c0a, 0x6564, 0x6373, 0x6972, 0x7470, 0x6f69, 0x3e6e, 
+    0x6554, 0x7473, 0x4120, 0x7070, 0x696c, 0x6163, 0x6974, 0x6e6f, 0x2f3c, 
+    0x6564, 0x6373, 0x6972, 0x7470, 0x6f69, 0x3e6e, 0x0a0d, 0x643c, 0x7065, 
+    0x6e65, 0x6564, 0x636e, 0x3e79, 0x0a0d, 0x643c, 0x7065, 0x6e65, 0x6564, 
+    0x746e, 0x7341, 0x6573, 0x626d, 0x796c, 0x0d3e, 0x3c0a, 0x7361, 0x6573, 
+    0x626d, 0x796c, 0x6449, 0x6e65, 0x6974, 0x7974, 0x0a0d, 0x7974, 0x6570, 
+    0x223d, 0x6977, 0x336e, 0x2232, 0x0a0d, 0x616e, 0x656d, 0x223d, 0x694d, 
+    0x7263, 0x736f, 0x666f, 0x2e74, 0x6957, 0x646e, 0x776f, 0x2e73, 0x6f43, 
+    0x6d6d, 0x6e6f, 0x432d, 0x6e6f, 0x7274, 0x6c6f, 0x2273, 0x0a0d, 0x6576, 
+    0x7372, 0x6f69, 0x3d6e, 0x3622, 0x302e, 0x302e, 0x302e, 0x0d22, 0x700a, 
+    0x6275, 0x696c, 0x4b63, 0x7965, 0x6f54, 0x656b, 0x3d6e, 0x3622, 0x3935, 
+    0x6235, 0x3436, 0x3431, 0x6334, 0x6663, 0x6431, 0x2266, 0x0a0d, 0x616c, 
+    0x676e, 0x6175, 0x6567, 0x223d, 0x222a, 0x0a0d, 0x7270, 0x636f, 0x7365, 
+    0x6f73, 0x4172, 0x6372, 0x6968, 0x6574, 0x7463, 0x7275, 0x3d65, 0x7822, 
+    0x3638, 0x2f22, 0x0d3e, 0x3c0a, 0x642f, 0x7065, 0x6e65, 0x6564, 0x746e, 
+    0x7341, 0x6573, 0x626d, 0x796c, 0x0d3e, 0x3c0a, 0x642f, 0x7065, 0x6e65, 
+    0x6564, 0x636e, 0x3e79, 0x0a0d, 0x2f3c, 0x7361, 0x6573, 0x626d, 0x796c, 
+    "\076" 
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "文件（&F）"
+    BEGIN
+        MENUITEM "打开（O）",                   ID_MENUITEM40001
+        MENUITEM "弹出光驱（&T）",              ID_TANCHU
+        MENUITEM "退出（&T）",                  ID_MENUQUIT
+    END
+    POPUP "编辑"
+    BEGIN
+        POPUP "播放器模式"
+        BEGIN
+            MENUITEM "迷你模式",                    IDM_MINI
+            MENUITEM "正常模式",                    IDM_NORMAL
+        END
+    END
+    POPUP "其他功能"
+    BEGIN
+        MENUITEM "关机",                        ID_MCLOSEPC
+        MENUITEM "关闭显示屏休眠",              ID_MCLOSEW
+    END
+    POPUP "帮助（&H）"
+    BEGIN
+        MENUITEM "关于",                        ID_MENUABOUT
+        MENUITEM "作者",                        ID_MENUAUTHOR
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "094524qo8ojm7xk5g5rxvo.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON    DISCARDABLE     "chinaz_PNG00.ico"
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

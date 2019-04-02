@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: sf - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPA6A6.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/sf.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\播放器2.1正式版\sf\MainDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPA6A6.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPA6A7.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib comctl32.lib winmm.lib wininet.lib MSWSOCK.LIB /nologo /subsystem:windows /incremental:yes /pdb:"Debug/sf.pdb" /debug /machine:I386 /out:"Debug/sf.exe" /pdbtype:sept 
+".\Debug\Main.obj"
+".\Debug\MainDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\resource.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPA6A7.tmp"
+<h3>Output Window</h3>
+Compiling...
+MainDlg.cpp
+D:\播放器2.1正式版\sf\MainDlg.cpp(32) : error C2065: 'AfxGetInstanceHandle' : undeclared identifier
+D:\播放器2.1正式版\sf\MainDlg.cpp(32) : error C2501: 'VERIFY' : missing storage-class or type specifiers
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+sf.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
